@@ -1,3 +1,29 @@
+body {
+    text-align: center;
+}
+
 .bio {
     text-align: center;
+}
+
+.aboutContents {
+    margin-top: 5em;
+}
+
+.contactPage {
+    margin-top: 5em;
+}
+
+.indexContents {
+    margin-top: 5em;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+a {
+    color: salmon;
+    text-decoration: none;
 }
