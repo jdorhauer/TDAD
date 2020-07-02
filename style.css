@@ -1,21 +1,10 @@
 body {
     text-align: center;
+    margin-top: 0;
 }
 
 .bio {
     text-align: center;
-}
-
-.aboutContents {
-    margin-top: 5em;
-}
-
-.contactPage {
-    margin-top: 5em;
-}
-
-.indexContents {
-    margin-top: 5em;
 }
 
 ul {
@@ -31,4 +20,8 @@ a {
 #nav {
     width: 100%;
     height: 3em;
+}
+
+#social img {
+    height: 30px;
 }
