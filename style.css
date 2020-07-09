@@ -3,8 +3,85 @@ body {
     margin-top: 0;
 }
 
+#navbarSupportedContent {
+    z-index: 1;
+    background-color: #f8f9fa;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+#carouselContainer {
+    width: 80%;
+    margin-top: 2em;
+    margin-left: 10%;
+}
+
+#listen {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#listen h2 {
+    margin-bottom: .75em;
+}
+
+#social h2 {
+    margin-bottom: .75em;
+}
+
+#social img {
+    height: 30px;
+}
+
+#anchor img {
+    width: 38px;
+    height: 38px;
+    margin-right: 1em;
+}
+
+#apple img {
+    margin-right: 1em;
+}
+
+#facebook img {
+    height: 45px;
+    margin-right: .3em;
+}
+
+#twitter img {
+    height: 45px;
+}
+
+#instagram img {
+    margin-right: .55em;
+}
+
 .bio {
-    text-align: center;
+    margin-left: 22.5%;
+    margin-top: 3.5em;
+    width: 55%;
+}
+
+.bio p {
+    margin-bottom: 1.5em;
+}
+
+.contactPage {
+    margin-top: 3.5em;
+}
+
+.contactPage h2 {
+    margin-bottom: 1em;
+}
+
+.contactPage p {
+    margin-bottom: 2em;
+}
+
+#matt {
+    margin-top: 2.75em;
 }
 
 ul {
@@ -20,8 +97,4 @@ a {
 #nav {
     width: 100%;
     height: 3em;
-}
-
-#social img {
-    height: 30px;
 }
