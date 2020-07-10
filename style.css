@@ -8,12 +8,16 @@ body {
     background-color: #f8f9fa;
 }
 
+#title {
+    margin-top: 1.5em;
+}
+
 .carousel-item {
-    height: 500px;
+    height: 450px;
 }
 
 #carouselContainer {
-    width: 80%;
+    width: 75%;
     margin-top: 2em;
     margin-left: 10%;
 }
