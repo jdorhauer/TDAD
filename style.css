@@ -1,11 +1,24 @@
 body {
     text-align: center;
     margin-top: 0;
+    background-color: #FCF6B1;
+    color: #121E21;
 }
 
 #navbarSupportedContent {
     z-index: 1;
-    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #121E21 !important;
+}
+
+.navbar-brand {
+    color: #F7B32B !important;
+}
+
+.nav-link {
+    color: #F7B32B !important;
 }
 
 #title {
@@ -35,6 +48,11 @@ body {
     margin-bottom: 1em;
 }
 
+#youtube>img {
+    margin-left: 1em;
+    height: 38px;
+}
+
 #social h2 {
     margin-bottom: .75em;
 }
@@ -54,8 +72,8 @@ body {
 }
 
 #facebook img {
-    height: 45px;
-    margin-right: .3em;
+    height: 32px;
+    margin-right: .55em;
 }
 
 #twitter img {
@@ -88,6 +106,14 @@ body {
     margin-bottom: 2em;
 }
 
+#form {
+    background-color: #A9E5BB;
+    padding: 2em;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 2em;
+}
+
 #matt {
     margin-top: 2.75em;
 }
@@ -98,7 +124,6 @@ ul {
 }
 
 a {
-    color: salmon;
     text-decoration: none;
 }
 

@@ -26,15 +26,37 @@
     <div class="contactPage">
         <h2>Get in touch with us</h2>
 
-        <h4>Email Us</h4>
-        <p>twodadsandadude@gmail.com</p>
+        <div id="email">
+            <h4>Email Us</h4>
+            <p>twodadsandadude@gmail.com</p>
+        </div>
 
-        <h4>Reach Out on Social Media</h4>
+        <div id="form">
+            <form id="contact" action="//formspree.io/twodadsandadude@gmail.com" method="POST">
+                <div class="contactHead">
+                    <h3>Contact Us Directly</h3>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="name" placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="_replyto" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="message" placeholder="Message" rows="3"></textarea>
+                </div>
+                <div class="submit">
+                    <input class="btn btn-primary" type="submit" value="Send">
+                </div>
+                <input type="hidden" name="_subject" value="Website contact" />
+            </form>
+        </div>
+
         <div id="social">
+            <h4>Reach Out on Social Media</h4>
             <a href="https://www.twitter.com" id="twitter"><img src="./../Assets/twitter.png" /></a>
-            <a href="https://www.facebook.com" id="facebook"><img src="./../Assets/facebook.jpg" /></a>
+            <a href="https://www.facebook.com" id="facebook"><img src="./../Assets/facebook.png" /></a>
             <a href="https://www.instagram.com" id="instagram"><img src="./../Assets/instagram.png" /></a>
-            <a href="https://www.youtube.com"><img src="./../Assets/youtube.png" /></a>
         </div>
     </div>
 
