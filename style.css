@@ -1,24 +1,27 @@
 body {
     text-align: center;
     margin-top: 0;
-    background-color: #FCF6B1;
-    color: #121E21;
+    background-color: #ebecb3;
+    color: #2b0504;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#navbarSupportedContent {
+/* #navbarSupportedContent {
     z-index: 1;
-}
+} */
 
 .navbar {
-    background-color: #121E21 !important;
+    background-color: #003049 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
 }
 
 .navbar-brand {
-    color: #F7B32B !important;
+    color: #ebecb3 !important;
 }
 
 .nav-link {
-    color: #F7B32B !important;
+    color: #ebecb3 !important;
 }
 
 #title {
@@ -107,7 +110,7 @@ body {
 }
 
 #form {
-    background-color: #A9E5BB;
+    background-color: #c7c79f;
     padding: 2em;
     width: 60%;
     margin-left: 20%;
